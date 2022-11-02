@@ -32,10 +32,10 @@ router.get('/:id', async (req, res) => {
 router.post ('/', async (req, res) => {
   // create a new category
   try {
-   const newCategory = Category.create({
+    const newCategory = Category.create({
       category_name: req.body.name
     })
-    res.json(newCategory)
+    res.json({message:`${req.body.name} has been added`})
   } catch (err) {
     res.json(err)
   }
@@ -51,7 +51,7 @@ router.put('/:id', (req, res) => {
       id: req.params.id,
     }
   })
-  res.json(updateCategory)
+  res.json({message:`Category name for id No:${req.params.id} has been updated with ${req.body.name}`})
   } catch (err) {
     res.json(err)
   }
@@ -64,7 +64,7 @@ router.delete('/:id', (req, res) => {
         id: req.params.id
       }
     })
-    res.json(deleteCategory)
+    res.json({message:`id No:${req.params.id} has been deleted`})
   } catch (err){
     res.json(err)
   }
