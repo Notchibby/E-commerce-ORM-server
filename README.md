@@ -8,6 +8,7 @@ This project aims to promote and reinforce our understanding of creating a funct
 - [Installation](#installation)
 - [Instructions](#instructions)
 - [Screenshots](#Screenshots)
+- [Walkthrough video](#walkthrough-video)
 - [Dependencies](#Dependencies)
 - [License](#license)
 
@@ -20,7 +21,16 @@ The app needs insomnia or other interfaces that helps with visulaising API calls
 
 
 ## Screenshots
-![screenshot-of-the-application-with-a-call-to-get-all-products](assets\images\get_all_products.png)
+![screenshot-of-the-application-with-a-call-to-get-all-products](https://github.com/Notchibby/E-commerce-ORM-server/blob/main/assets/images/get_all_products.png)
+
+![screenshot-of-the-application-with-a-call-to-product-NO-4](https://github.com/Notchibby/E-commerce-ORM-server/blob/main/assets/images/get_product_4.png)
+
+![screenshot-of-the-application-with-a-call-to-delete-NO-4](https://github.com/Notchibby/E-commerce-ORM-server/blob/main/assets/images/Delete_product_4.png)
+
+![screenshot-of-the-application-with-a-call-to-product-NO-4-after-deleting-product](https://github.com/Notchibby/E-commerce-ORM-server/blob/main/assets/images/Get_product_4_after_delete.png)
+
+
+## Walkthrough video
 
 
 ## Dependencies
