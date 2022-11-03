@@ -23,6 +23,7 @@ router.get('/:id', async (req, res) => {
     if (!categories) {
       res.status(404).json({message: 'No products found with this id!'})
     }
+    res.json(categories)
   } catch(err){
     res.status(500).json(err)
   }
