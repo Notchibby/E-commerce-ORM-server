@@ -55,7 +55,7 @@ router.put('/:id', async (req, res) => {
   })
   res.json({message:`Category name for id No:${req.params.id} has been updated with ${req.body.name}`})
   } catch (err) {
-    res.json(err)
+    res.json(err)  
   }
 });
 

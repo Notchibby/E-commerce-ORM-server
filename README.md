@@ -14,7 +14,7 @@ This project aims to promote and reinforce our understanding of creating a funct
 
 ## Installation
 The database can be seeded using the command 'node seeds/index.js' in the terminal.
-The app can be started by typing in the command 'npm run watch' to the terminal.
+The app can be started by typing in the command 'npm run watch' or 'node server.js' in the terminal.
 
 
 ## Instructions
@@ -32,7 +32,7 @@ The app needs insomnia or other interfaces that helps with visulaising API calls
 
 
 ## Walkthrough video
-
+https://drive.google.com/file/d/1IwkBUaKldi8KFKxa45m-cXmWKUlBCRXI/view
 
 ## Dependencies
 
