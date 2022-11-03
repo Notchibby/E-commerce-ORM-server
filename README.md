@@ -13,6 +13,7 @@ This project aims to promote and reinforce our understanding of creating a funct
 - [License](#license)
 
 ## Installation
+The database can be seeded using the command 'node seeds/index.js' in the terminal.
 The app can be started by typing in the command 'npm run watch' to the terminal.
 
 
